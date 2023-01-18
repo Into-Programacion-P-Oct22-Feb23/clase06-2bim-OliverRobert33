@@ -19,7 +19,7 @@ public class Principal {
         int valorA = OperadorUno.obtenerNumero(100);
         int valorB = OperadorUno.obtenerNumero(10);
         int suma = OperadorDos.obtenerSuma(valorA, valorB);
-        int multiplicacion = OperadorTres.obtenermultiplicacion(valorA, valorB);
+        int multiplicacion = OperadorTres.obtenerMultiplicacion(valorA, valorB);
         System.out.printf("La suma de %d + %d es igual a: %d\n"
                 + "La muoltiplicacion de %d * %d es igual a %d\n",
                 valorA,

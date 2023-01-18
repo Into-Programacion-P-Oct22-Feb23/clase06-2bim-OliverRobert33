@@ -9,7 +9,7 @@ import paquete04.*;
  * @author SALA I
  */
 public class OperadorTres {
-    public static int obtenermultiplicacion(int a, int b){
+    public static int obtenerMultiplicacion(int a, int b){
         return a * b;
     }
 }
