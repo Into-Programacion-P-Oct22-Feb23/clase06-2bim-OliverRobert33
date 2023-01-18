@@ -30,7 +30,7 @@ public class Ejemplo02 {
                 valorB,
                 suma);
             } else {
-            System.out.print("Error bajo rango");
+            System.out.print("Error bajo rango\n");
         }
             
   
