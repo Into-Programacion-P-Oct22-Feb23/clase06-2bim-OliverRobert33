@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author reroes
+ * @author Oliver Saraguro
  */
 public class Ejemplo02 {
     
@@ -21,13 +21,21 @@ public class Ejemplo02 {
         int op;
         System.out.println("Ingrese el limite: ");
         op = entrada.nextInt();
-        int valorA = obtenerNumero(op); // 3
+        if (op > 0 ) {
+                int valorA = obtenerNumero(op); // 3
         int valorB = obtenerNumero(op); // 2
         int suma = obtnerSuma(valorA, valorB);
         System.out.printf("La suma de %d + %d es igual a: %d\n", 
                 valorA,
                 valorB,
                 suma);
+            } else {
+            System.out.print("Error bajo rango");
+        }
+            
+  
+       
+        
     }
     
     public static int obtenerNumero(int o) {
