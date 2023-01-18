@@ -22,15 +22,15 @@ public class Ejemplo02 {
         System.out.println("Ingrese el limite: ");
         op = entrada.nextInt();
         if (op > 0 ) {
-                int valorA = obtenerNumero(op); // 3
-        int valorB = obtenerNumero(op); // 2
-        int suma = obtnerSuma(valorA, valorB);
-        System.out.printf("La suma de %d + %d es igual a: %d\n", 
+            int valorA = obtenerNumero(op); // 3
+            int valorB = obtenerNumero(op); // 2
+            int suma = obtnerSuma(valorA, valorB);
+             System.out.printf("La suma de %d + %d es igual a: %d\n", 
                 valorA,
                 valorB,
                 suma);
             } else {
-            System.out.print("Error bajo rango\n");
+                System.out.print("Error bajo rango.\n");
         }
             
   
